@@ -8,17 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		E7638AD329F46A3E00F3E9E9 /* AppleShopProjectAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7638AD229F46A3E00F3E9E9 /* AppleShopProjectAppApp.swift */; };
-		E7638AD529F46A3E00F3E9E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7638AD429F46A3E00F3E9E9 /* ContentView.swift */; };
-		E7638AD729F46A4000F3E9E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7638AD629F46A4000F3E9E9 /* Assets.xcassets */; };
 		E7638ADA29F46A4000F3E9E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7638AD929F46A4000F3E9E9 /* Preview Assets.xcassets */; };
+		E7638AE229F46A5900F3E9E9 /* AppleShopProjectApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7638AE029F46A5900F3E9E9 /* AppleShopProjectApp.xcdatamodeld */; };
+		E7638AE429F46B8600F3E9E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7638AE329F46B8600F3E9E9 /* Assets.xcassets */; };
+		E7638AE929F46BF800F3E9E9 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7638AE829F46BF800F3E9E9 /* CoreDataManager.swift */; };
+		E7638AEB29F46C1E00F3E9E9 /* DIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7638AEA29F46C1E00F3E9E9 /* DIManager.swift */; };
+		E7638AED29F46C4500F3E9E9 /* DeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7638AEC29F46C4500F3E9E9 /* DeviceService.swift */; };
+		E7638AF729F46D0200F3E9E9 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7638AF629F46D0200F3E9E9 /* MainViewModel.swift */; };
+		E7638AF929F46D1C00F3E9E9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7638AF829F46D1C00F3E9E9 /* MainView.swift */; };
+		E7638AFE29F46DAB00F3E9E9 /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7638AFD29F46DAB00F3E9E9 /* CoreDataViewModel.swift */; };
+		E7638B0329F46E0A00F3E9E9 /* KemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7638B0029F46E0A00F3E9E9 /* KemInfoView.swift */; };
+		E7638B0429F46E0A00F3E9E9 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7638B0129F46E0A00F3E9E9 /* DeviceInfo.swift */; };
+		E7638B0529F46E0A00F3E9E9 /* DeviceInfoExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7638B0229F46E0A00F3E9E9 /* DeviceInfoExtended.swift */; };
+		E7638B0829F46E4A00F3E9E9 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7638B0729F46E4A00F3E9E9 /* CartView.swift */; };
+		E7638B0D29F46E9E00F3E9E9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7638B0C29F46E9E00F3E9E9 /* LoginView.swift */; };
+		E7638B0F29F46EC000F3E9E9 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7638B0E29F46EC000F3E9E9 /* RegisterView.swift */; };
+		E7638B1129F46EF400F3E9E9 /* AuthorizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7638B1029F46EF400F3E9E9 /* AuthorizationViewModel.swift */; };
+		E7638B1429F46F3200F3E9E9 /* LaunchAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7638B1329F46F3200F3E9E9 /* LaunchAppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E7638ACF29F46A3E00F3E9E9 /* AppleShopProjectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleShopProjectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7638AD229F46A3E00F3E9E9 /* AppleShopProjectAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleShopProjectAppApp.swift; sourceTree = "<group>"; };
-		E7638AD429F46A3E00F3E9E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E7638AD629F46A4000F3E9E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7638AD929F46A4000F3E9E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7638AE129F46A5900F3E9E9 /* AppleShopProjectApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppleShopProjectApp.xcdatamodel; sourceTree = "<group>"; };
+		E7638AE329F46B8600F3E9E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../AppleShopApp/AppleShopApp/Assets.xcassets; sourceTree = "<group>"; };
+		E7638AE829F46BF800F3E9E9 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		E7638AEA29F46C1E00F3E9E9 /* DIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIManager.swift; sourceTree = "<group>"; };
+		E7638AEC29F46C4500F3E9E9 /* DeviceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceService.swift; sourceTree = "<group>"; };
+		E7638AF629F46D0200F3E9E9 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		E7638AF829F46D1C00F3E9E9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E7638AFD29F46DAB00F3E9E9 /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
+		E7638B0029F46E0A00F3E9E9 /* KemInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KemInfoView.swift; sourceTree = "<group>"; };
+		E7638B0129F46E0A00F3E9E9 /* DeviceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
+		E7638B0229F46E0A00F3E9E9 /* DeviceInfoExtended.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfoExtended.swift; sourceTree = "<group>"; };
+		E7638B0729F46E4A00F3E9E9 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		E7638B0C29F46E9E00F3E9E9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E7638B0E29F46EC000F3E9E9 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		E7638B1029F46EF400F3E9E9 /* AuthorizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewModel.swift; sourceTree = "<group>"; };
+		E7638B1329F46F3200F3E9E9 /* LaunchAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +79,12 @@
 		E7638AD129F46A3E00F3E9E9 /* AppleShopProjectApp */ = {
 			isa = PBXGroup;
 			children = (
+				E7638AEE29F46C6C00F3E9E9 /* Views */,
+				E7638AE529F46BC000F3E9E9 /* Sources */,
 				E7638AD229F46A3E00F3E9E9 /* AppleShopProjectAppApp.swift */,
-				E7638AD429F46A3E00F3E9E9 /* ContentView.swift */,
-				E7638AD629F46A4000F3E9E9 /* Assets.xcassets */,
+				E7638AE329F46B8600F3E9E9 /* Assets.xcassets */,
 				E7638AD829F46A4000F3E9E9 /* Preview Content */,
+				E7638AE029F46A5900F3E9E9 /* AppleShopProjectApp.xcdatamodeld */,
 			);
 			path = AppleShopProjectApp;
 			sourceTree = "<group>";
@@ -65,6 +95,146 @@
 				E7638AD929F46A4000F3E9E9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E7638AE529F46BC000F3E9E9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E7638AE729F46BDF00F3E9E9 /* Services */,
+				E7638AE629F46BD300F3E9E9 /* Managers */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E7638AE629F46BD300F3E9E9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E7638AE829F46BF800F3E9E9 /* CoreDataManager.swift */,
+				E7638AEA29F46C1E00F3E9E9 /* DIManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E7638AE729F46BDF00F3E9E9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E7638AEC29F46C4500F3E9E9 /* DeviceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E7638AEE29F46C6C00F3E9E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7638B1229F46F1800F3E9E9 /* App */,
+				E7638B0929F46E6A00F3E9E9 /* Authorization */,
+				E7638B0629F46E3B00F3E9E9 /* Cart */,
+				E7638AFF29F46DEF00F3E9E9 /* Info */,
+				E7638AFA29F46D6300F3E9E9 /* CoreData */,
+				E7638AEF29F46C7B00F3E9E9 /* Core */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E7638AEF29F46C7B00F3E9E9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E7638AF129F46C9000F3E9E9 /* ViewModel */,
+				E7638AF029F46C8800F3E9E9 /* View */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E7638AF029F46C8800F3E9E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E7638AF829F46D1C00F3E9E9 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7638AF129F46C9000F3E9E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E7638AF629F46D0200F3E9E9 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E7638AFA29F46D6300F3E9E9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E7638AFC29F46D7A00F3E9E9 /* ViewModel */,
+				E7638AFB29F46D7400F3E9E9 /* View */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		E7638AFB29F46D7400F3E9E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7638AFC29F46D7A00F3E9E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E7638AFD29F46DAB00F3E9E9 /* CoreDataViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E7638AFF29F46DEF00F3E9E9 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				E7638B0129F46E0A00F3E9E9 /* DeviceInfo.swift */,
+				E7638B0229F46E0A00F3E9E9 /* DeviceInfoExtended.swift */,
+				E7638B0029F46E0A00F3E9E9 /* KemInfoView.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		E7638B0629F46E3B00F3E9E9 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				E7638B0729F46E4A00F3E9E9 /* CartView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		E7638B0929F46E6A00F3E9E9 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				E7638B0B29F46E8400F3E9E9 /* ViewModel */,
+				E7638B0A29F46E7F00F3E9E9 /* View */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		E7638B0A29F46E7F00F3E9E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E7638B0C29F46E9E00F3E9E9 /* LoginView.swift */,
+				E7638B0E29F46EC000F3E9E9 /* RegisterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7638B0B29F46E8400F3E9E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E7638B1029F46EF400F3E9E9 /* AuthorizationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E7638B1229F46F1800F3E9E9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E7638B1329F46F3200F3E9E9 /* LaunchAppView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +295,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7638AE429F46B8600F3E9E9 /* Assets.xcassets in Resources */,
 				E7638ADA29F46A4000F3E9E9 /* Preview Assets.xcassets in Resources */,
-				E7638AD729F46A4000F3E9E9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +307,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7638AD529F46A3E00F3E9E9 /* ContentView.swift in Sources */,
+				E7638AE929F46BF800F3E9E9 /* CoreDataManager.swift in Sources */,
+				E7638AFE29F46DAB00F3E9E9 /* CoreDataViewModel.swift in Sources */,
+				E7638B0529F46E0A00F3E9E9 /* DeviceInfoExtended.swift in Sources */,
+				E7638B0F29F46EC000F3E9E9 /* RegisterView.swift in Sources */,
+				E7638AF929F46D1C00F3E9E9 /* MainView.swift in Sources */,
+				E7638B1429F46F3200F3E9E9 /* LaunchAppView.swift in Sources */,
 				E7638AD329F46A3E00F3E9E9 /* AppleShopProjectAppApp.swift in Sources */,
+				E7638AEB29F46C1E00F3E9E9 /* DIManager.swift in Sources */,
+				E7638B0829F46E4A00F3E9E9 /* CartView.swift in Sources */,
+				E7638AE229F46A5900F3E9E9 /* AppleShopProjectApp.xcdatamodeld in Sources */,
+				E7638B1129F46EF400F3E9E9 /* AuthorizationViewModel.swift in Sources */,
+				E7638AED29F46C4500F3E9E9 /* DeviceService.swift in Sources */,
+				E7638B0329F46E0A00F3E9E9 /* KemInfoView.swift in Sources */,
+				E7638B0D29F46E9E00F3E9E9 /* LoginView.swift in Sources */,
+				E7638AF729F46D0200F3E9E9 /* MainViewModel.swift in Sources */,
+				E7638B0429F46E0A00F3E9E9 /* DeviceInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +523,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E7638AE029F46A5900F3E9E9 /* AppleShopProjectApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E7638AE129F46A5900F3E9E9 /* AppleShopProjectApp.xcdatamodel */,
+			);
+			currentVersion = E7638AE129F46A5900F3E9E9 /* AppleShopProjectApp.xcdatamodel */;
+			path = AppleShopProjectApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E7638AC729F46A3E00F3E9E9 /* Project object */;
 }

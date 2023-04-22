@@ -11,7 +11,11 @@ import SwiftUI
 struct AppleShopProjectAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                LaunchAppView()
+            }
+            
+            //CartView()
         }
     }
 }
