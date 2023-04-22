@@ -65,25 +65,10 @@ struct MainView: View {
                         Image(systemName: "cart")
                             .foregroundColor(.blue)
                         
+                        }
                     }
                 }
             }
-            
-            .navigationBarItems(
-                leading:
-                    NavigationLink(destination: KemInfoView()){
-                        Image(systemName: "info.circle")
-                            .foregroundColor(.black)
-                    }
-                
-                ,
-                trailing:
-                    NavigationLink(destination: CartView()){
-                        Image(systemName: "cart")
-                            .foregroundColor(.black)
-                        
-                    }
-            )
             .animation(.default, value: vm.searchTerm)
             .searchable(text: $vm.searchTerm, prompt: "Find a device")
             .onChange(of: vm.searchTerm) { newValue in
@@ -95,7 +80,7 @@ struct MainView: View {
             
         }
         
-    }
+    
 }
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
